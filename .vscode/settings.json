@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "day07",
+            "database": "${workspaceFolder:day07_SQL_Filtering_SortingPractice}/Day07_practice.db"
+        }
+    ]
+}
