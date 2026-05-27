@@ -1,6 +1,4 @@
---Show all Female patients whose status is 'Critical'.
+--Show all patients who are NOT in the Pediatrics department.
 SELECT *
 FROM patients
-WHERE gender = 'Female'
-    AND status = 'Critical'
--- Result: 3 rows returned
+WHERE department != 'Pediatrics' OR department IS NULL;

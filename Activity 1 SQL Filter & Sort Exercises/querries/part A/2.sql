@@ -1,5 +1,4 @@
---Show all patients who are NOT in the Pediatrics department.
+--2. Show all patients who live in Cebu City OR Davao City.
 SELECT *
 FROM patients
-WHERE department != 'Pediatrics'
--- Result:42 rows returned
+WHERE city = 'Cebu City' OR city = 'Davao City'         
